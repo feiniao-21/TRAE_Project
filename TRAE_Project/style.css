@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: linear-gradient(135deg, #d3d8e0 0%, #a8c0ff 100%); /* 蓝色调渐变背景 */
+    min-height: 100vh;
+}
+
+#matter-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* 允许鼠标事件穿透 */
+}
+
+.card {
+    position: absolute;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px; /* 圆角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+    user-select: none; /* 禁止文本选择 */
+    cursor: grab;
+    color: #546e7a; /* 蓝灰色 (Blue Grey) */
+    font-weight: bold;
+}
